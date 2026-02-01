@@ -1,7 +1,5 @@
-import type { NextConfig } from 'next'
-
-const nextConfig: NextConfig = {
-  // Enable static optimization where possible
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
 }
 
